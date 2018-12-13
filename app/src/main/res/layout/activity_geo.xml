@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.sheylacu.android.geoapp.GeoActivity">
+
+<TextView
+    android:id="@+id/texto_pregunta"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="36dp"
+    android:layout_marginBottom="16dp"
+    android:textAlignment="center"
+    android:text="@string/texto_pregunta_1"
+    style="?android:listSeparatorTextViewStyle"/>|
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/boton_cierto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/texto_boton_cierto" />
+
+        <Button
+            android:id="@+id/boton_falso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/texto_boton_falso" />
+
+
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/boton_mostrar_respuesta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_boton_mostrar_respuesta"/>
+
+     <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+         <Button
+             android:id="@+id/boton_anterior"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="16dp"
+             android:layout_alignParentLeft="true"
+             android:text="@string/texto_boton_anterior" />
+
+         <Button
+             android:id="@+id/boton_siguiente"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="16dp"
+             android:layout_alignParentRight="true"
+             android:text="@string/texto_boton_siguiente" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
